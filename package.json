@@ -1,10 +1,10 @@
 {
-  "name": "npm_build_tool_jenkins_mcp_server",
+  "name": "@tanlh/mcp-server-build-tool-jenkins",
   "version": "1.0.0",
   "description": "jenkins自动打包mcp服务",
-  "main": "index.js",
+  "main": "build/index.js",
   "bin": {
-    "build-tool-jenkins-mcp": "./build/index.js"
+    "mcp-server-build-tool-jenkins": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && chmod 755 build/index.js"
@@ -13,7 +13,7 @@
     "mcp",
     "server"
   ],
-  "author": "",
+  "author": "tanlh",
   "license": "ISC",
   "type": "module",
   "dependencies": {
